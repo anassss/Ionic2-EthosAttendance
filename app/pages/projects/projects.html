@@ -1,0 +1,25 @@
+<ion-navbar *navbar dark hideBackButton>
+  <ion-button start>
+      <button clear light (click)="goBack()"><ion-icon name="arrow-back"></ion-icon></button>
+  </ion-button>
+  <ion-title>
+    Ethos Attendance
+  </ion-title>
+</ion-navbar>
+
+<ion-content>
+  <ion-card>
+    <!--<ion-card-header>
+    </ion-card-header>-->
+
+    <ion-list>
+      <ion-list-header>
+      Projects
+      </ion-list-header>
+    
+      <ion-item *ngFor="let p of projects">
+      {{p.Text}}
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>

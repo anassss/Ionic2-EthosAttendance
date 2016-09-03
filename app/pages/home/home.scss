@@ -1,0 +1,54 @@
+.home {
+  
+}
+.card-background-page {
+  background-color: whitesmoke; 
+
+  ion-card {
+    position: relative;
+    text-align: center;
+    height: 20%;
+    width: 95%;
+  }
+  ion-icon{
+      font-size: 52px;
+  }
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+  
+  .scan{
+      background-color: #63db32;
+      
+  }
+  .pin{
+      background-color: #db32c6;
+  }
+  .addemp{
+      background-color: #4432db;
+  }
+  .checking{
+      background-color: #32d3db;
+  }
+  .sync{
+      background-color: #dbbe32;
+  }
+  .projects{
+      background-color: #db6932;
+  }
+
+}

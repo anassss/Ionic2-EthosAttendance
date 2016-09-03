@@ -1,0 +1,56 @@
+<ion-navbar *navbar dark>
+  <ion-title >
+    Ethos Attendance
+  </ion-title>
+</ion-navbar>
+
+<!--<ion-content class="home" padding>
+  
+</ion-content>-->
+
+<ion-content class="card-background-page" padding>
+
+  <ion-card class="scan">
+    <!--<img src="images/QR_Code.png"/>-->
+    <ion-icon ios="ios-qr-scanner" md="md-qr-scanner"></ion-icon>
+    <div class="card-title"></div>
+    <div class="card-subtitle">Scan</div>
+  </ion-card>
+
+  <ion-card class="pin">
+    <!--<img src="images/Pin.png"/>-->
+    <ion-icon ios="ios-key" md="md-key"></ion-icon>
+    <div class="card-title"></div>
+    <div class="card-subtitle">Pin</div>
+  </ion-card>
+
+  <ion-card class="addemp">
+    <!--<img src="images/AddEmployee.png"/>-->
+    <ion-icon ios="ios-person-add" md="md-person-add"></ion-icon>
+    <div class="card-title"></div>
+    <div class="card-subtitle">Add Employee</div>
+  </ion-card>
+
+  <ion-card class="checking">
+    <!--<img src="images/SpotChecking.png"/>-->
+    <ion-icon ios="ios-search" md="md-search"></ion-icon>
+    <div class="card-title"></div>
+    <div class="card-subtitle">Spot Checking</div>
+  </ion-card>
+
+  <ion-card class="sync">
+    <!--<img src="images/Cloud_Sync.png"/>-->
+    <ion-icon ios="ios-sync" md="md-sync"></ion-icon>
+    <div class="card-title"></div>
+    <div class="card-subtitle">Sync</div>
+  </ion-card>
+  
+  <!--[navPush]="goToProjectsPage"-->
+  <ion-card class="projects" (click)="goToProjectsPage()">
+    <!--<img src="images/Projects.png"/>-->
+    <!--<ion-icon ios="ios-close" md="md-close"></ion-icon>-->
+    <div class="card-title">Projects</div>
+    <div class="card-subtitle"></div>
+  </ion-card>
+  
+</ion-content>
